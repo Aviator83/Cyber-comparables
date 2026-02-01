@@ -14,6 +14,8 @@ const App = () => {
   const [aiHeading, setAiHeading] = useState("Sector Analysis");
   const [isGenerating, setIsGenerating] = useState(false);
   const [aiError, setAiError] = useState(null);
+const [test] = useState(null);
+
 
   const data = [
     { 
